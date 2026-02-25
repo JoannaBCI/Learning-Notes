@@ -32,42 +32,32 @@ A question with only a **True or False** answer.
 
 ### Modulo Operator `%`
 - Returns the **remainder** after division.
-    ```
     4 % 2 == 0   # True → even
     3 % 2 == 1   # True → odd
-    ```
 - if / elif / else Structure
-    ```
     if x < y:
         print("x is less than y")
     elif x > y:
         print("x is greater than y")
     else:
         print("x is equal to y")
-    ```
 - `if` → always asked first
 - `elif` → only asked if previous was False
 - `else` → runs if nothing above was True
 - Once a condition is True, the rest are **skipped**
 - Both must be True
-  ```
   if 90 <= score <= 100:
       print("A")
 - One must be True
-   ```
    if x < y or x > y:
        print("x is not equal to y")```
-
-## match / case
-```python
-match name:
+- Match name:
     case "Harry" | "Hermione" | "Ron":
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
     case _:
         print("Who?")
-```
 
 - `|` separates multiple values in one case
 - `_` is the catch-all (like `else`)
@@ -76,28 +66,17 @@ match name:
 ---
 
 ## Functions
-```python
 def is_even(n):
     return n % 2 == 0
-
 def main():
     x = int(input("What's x? "))
     if is_even(x):
         print("Even")
     else:
         print("Odd")
-
 main()
-```
-
----
 
 ## Key Concepts
-
-- **Control flow** — the order in which code runs, top to bottom, shaped by conditions
-- **Mutually exclusive conditions** — using `elif`/`else` means only one branch runs
-- **Design vs. correctness** — code can be correct but still poorly designed
-- **Pythonic** — writing code in the clean, readable style preferred by Python community
+- Using `elif`/`else` means only one branch runs
 - **Boolean expression as return value** — instead of `if True else False`, just `return n % 2 == 0`
-Click the pencil ✏️ edit button on GitHub, select all, delete, paste this in, then commit. It'll render properly. Sonnet 4.6
     
