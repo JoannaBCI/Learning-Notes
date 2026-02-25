@@ -1,5 +1,4 @@
 ## Week 0 - Terminal Commands
-
 `cp <source> <destination>` - Copy a file
 `mv <source> <destination>` - Move or rename a file
 `rm <filename>` - Remove/delete a file
