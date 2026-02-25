@@ -37,12 +37,8 @@ A question with only a **True or False** answer.
 - Using `elif`/`else` means only one branch runs
 
 ### Match name:
-- ```
-    case "name":
-        print("section")
-    case _:
-        print("Who?")
-  ```
+- `.lower()` – converts whatever the user types to all lowercase.
+- `.strip()` – removes accidental spaces at the start or end of the input.
 - `|` separates multiple values in one case
 - `_` is the catch-all (like `else`)
 - No `break` needed — Python exits after a match automatically
