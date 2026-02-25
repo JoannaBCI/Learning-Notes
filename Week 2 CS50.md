@@ -1,4 +1,4 @@
-#Week 2 - Loop
+## Week 2 - Loop
 - `while` — repeat as long as condition is True
 ```
 i = 0
@@ -15,13 +15,13 @@ while i < 3:
 - `continue` — skip current iteration, go back to top of loop
 - `range(n)` — generates numbers 0 up to but not through n
 
-## i means Index
+### i means Index
 - `i` - the location for the value, not the value itself
 - i += 1 is shorthand for i = i + 1
 Always change the variable or you get an infinite loop
 `Ctrl + C` to escape an infinite loop
 
-## Lists
+### Lists
 - `[]`– creates list, first item is `[0]` index
 - `:` – categorizes what is with what, while `,` seperates words
 - `len(students)` — returns length of list
