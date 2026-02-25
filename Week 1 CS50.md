@@ -28,55 +28,21 @@
 A question with only a **True or False** answer.
 - `True` — capital T
 - `False` — capital F
-- Functions can **return** True or False directly
-
-### Modulo Operator `%`
-- Returns the **remainder** after division.
-    4 % 2 == 0   # True → even
-    3 % 2 == 1   # True → odd
-- if / elif / else Structure
-    if x < y:
-        print("x is less than y")
-    elif x > y:
-        print("x is greater than y")
-    else:
-        print("x is equal to y")
+- `%` – returns
 - `if` → always asked first
 - `elif` → only asked if previous was False
 - `else` → runs if nothing above was True
-- Once a condition is True, the rest are **skipped**
-- Both must be True
-  if 90 <= score <= 100:
-      print("A")
-- One must be True
-   if x < y or x > y:
-       print("x is not equal to y")```
-- Match name:
-    case "Harry" | "Hermione" | "Ron":
-        print("Gryffindor")
-    case "Draco":
-        print("Slytherin")
+- `and` – both must be True
+- `or` – one must be True
+- Using `elif`/`else` means only one branch runs
+
+### Match name:
+- ```
+    case "name":
+        print("section")
     case _:
         print("Who?")
-
+  ```
 - `|` separates multiple values in one case
 - `_` is the catch-all (like `else`)
 - No `break` needed — Python exits after a match automatically
-
----
-
-## Functions
-def is_even(n):
-    return n % 2 == 0
-def main():
-    x = int(input("What's x? "))
-    if is_even(x):
-        print("Even")
-    else:
-        print("Odd")
-main()
-
-## Key Concepts
-- Using `elif`/`else` means only one branch runs
-- **Boolean expression as return value** — instead of `if True else False`, just `return n % 2 == 0`
-    
