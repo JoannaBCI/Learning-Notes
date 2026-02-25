@@ -40,4 +40,4 @@ Indent the code underneath with 4 spaces or Tab
 - `x * y` - Multiply
 - `x ** y` - Raise to a power
 - `x % y` - Remainder after division
-# this is a comment - Note to myself, ignored by Python
+- '##' this is a comment - Note to myself, ignored by Python
