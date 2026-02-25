@@ -1,6 +1,4 @@
-## Week 1 - Conditionals
-
-## Comparison Operators
+## Week 1 - Conditionals Operators
 - `>` — Greater than
 - `>=` — Greater than or equal to
 - `<` — Less than
