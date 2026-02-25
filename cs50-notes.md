@@ -22,11 +22,12 @@
 ### Functions
 - `python <filename.py>` - Run a Python file
 - `python` - Open interactive mode (type code directly)
-- `print("text")` - Display text on screen
+- `print("text")` - Display text on screen (print(text.lower())–makes text lowercase)
 - `input("prompt")` - Ask user to type something, returns what they typed
 - `int(value)` - Convert to integer
 - `float(value)` - Convert to decimal number
 - `round(number, digits)` - Round a number (digits optional)
+- `print(text.replace("text","text"))` - Replace a segment with another.
 
 ### Defining
 - `def function_name(parameter)`: - Define a function
