@@ -14,6 +14,7 @@ Use if/elif when you're checking conditions, ranges, or using .startswith(), .lo
 - `else` — Catch-all; runs if no previous condition was True
 - `and` — Both conditions must be True
 - `or` — At least one condition must be True
+
 Use match/case when you're checking if something equals specific exact values:
 - `match` — Match a variable against specific cases 
 - `case` — Defines each option inside a `match` block
