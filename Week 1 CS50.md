@@ -8,12 +8,14 @@
 - `=` — Assignment only (copies value from right to left)
 
 ### Keywords
+Use if/elif when you're checking conditions, ranges, or using .startswith(), .lower(), >, <, etc:
 - `if` — Ask a question; run indented code if the answer is True
 - `elif` — "Else if" — only asked if the previous `if` was False
 - `else` — Catch-all; runs if no previous condition was True
 - `and` — Both conditions must be True
 - `or` — At least one condition must be True
-- `match` — Match a variable against specific cases (like a cleaner if/elif/else)
+Use match/case when you're checking if something equals specific exact values:
+- `match` — Match a variable against specific cases 
 - `case` — Defines each option inside a `match` block
 - `_` — Wildcard/catch-all inside a `match` (equivalent to `else`)
 
