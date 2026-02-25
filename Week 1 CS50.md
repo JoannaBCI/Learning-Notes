@@ -42,6 +42,8 @@ A question with only a **True or False** answer.
 ### Match name:
 - `.lower()` – converts whatever the user types to all lowercase.
 - `.strip()` – removes accidental spaces at the start or end of the input.
+- `.startswith()` — checks if a string begins with something. H in Hello.
+- `.split()` — cuts a string into a list of pieces wherever you tell it to split. [cat.jpg] → ["cat", "jpg"]
 - `|` separates multiple values in one case
 - `_` is the catch-all (like `else`)
 - No `break` needed — Python exits after a match automatically
