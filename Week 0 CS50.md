@@ -26,6 +26,7 @@
 - `input("prompt")` - Ask user to type something, returns what they typed
 - `int(value)` - Convert to integer
 - `float(value)` - Convert to decimal number
+  `.1f` - The number before f is  how many decimal places you want (.3f → 2.000, .0f → 2)
 - `round(number, digits)` - Round a number (digits optional)
 - `print(text.replace("text","text"))` - Replace a segment with another.
 
