@@ -18,8 +18,8 @@ while i < 3:
 ### i means Index
 - `i` - the location for the value, not the value itself
 - i += 1 is shorthand for i = i + 1
-Always change the variable or you get an infinite loop
-`Ctrl + C` to escape an infinite loop
+- `Ctrl + C` to escape an infinite loop
+- Always change the variable or you get an infinite loop
 
 ### Lists
 - `[]`– creates list, first item is `[0]` index
