@@ -20,24 +20,24 @@
 - `/` at end of name — Indicates a directory (e.g. `folder/`)
 
 ### Functions
-`python <filename.py>` - Run a Python file
-`python` - Open interactive mode (type code directly)
-`print("text")` - Display text on screen
-`input("prompt")` - Ask user to type something, returns what they typed
-`int(value)` - Convert to integer
-`float(value)` - Convert to decimal number
-`round(number, digits)` - Round a number (digits optional)
+- `python <filename.py>` - Run a Python file
+- `python` - Open interactive mode (type code directly)
+- `print("text")` - Display text on screen
+- `input("prompt")` - Ask user to type something, returns what they typed
+- `int(value)` - Convert to integer
+- `float(value)` - Convert to decimal number
+- `round(number, digits)` - Round a number (digits optional)
 
 ### Defining
-`def function_name(parameter)`: - Define a function
+- `def function_name(parameter)`: - Define a function
 Indent the code underneath with 4 spaces or Tab
-`return value` - Hand back a result from the function
+- `return value` - Hand back a result from the function
 
 ### Syntax
-`variable = value` - Store a value (assignment)
-`f"Hello, {name}"` - F-string, inserts variable into text
-`"text" + variable` - Concatenate (join) text
-`x * y` - Multiply
-`x ** y` - Raise to a power
-`x % y` - Remainder after division
+- `variable = value` - Store a value (assignment)
+- `f"Hello, {name}"` - F-string, inserts variable into text
+- `"text" + variable` - Concatenate (join) text
+- `x * y` - Multiply
+- `x ** y` - Raise to a power
+- `x % y` - Remainder after division
 # this is a comment - Note to myself, ignored by Python
