@@ -1,4 +1,4 @@
-# Week 1 - Conditionals
+## Week 1 - Conditionals
 
 ## Comparison Operators
 - `>` — Greater than
