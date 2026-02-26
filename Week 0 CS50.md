@@ -29,6 +29,11 @@
   `.1f` - The number before f is  how many decimal places you want (.3f → 2.000, .0f → 2)
 - `round(number, digits)` - Round a number (digits optional)
 - `print(text.replace("text","text"))` - Replace a segment with another.
+- `[::-1]` reverse a string
+    - `[start : stop : step]`
+    - start → where to begin (empty = beginning of string)
+    - stop → where to end (empty = end of string)
+    - step → how to move (-1 = go backwards one at a time)
 
 ### Defining
 - `def function_name(parameter)`: - Define a function
