@@ -6,7 +6,7 @@ while i < 3:
     print("meow")
     i += 1
 ```
-- `for` — repeat over a sequence of values
+- `for` — repeat over a sequence of values, find anomaly in char
 ```
   for i in range(3):
     print("meow")
@@ -28,3 +28,5 @@ while i < 3:
 - `{}` - cictionaries
 - `print()` - prints a newline
 - `print("#", end="")` — no newline after printing
+- `char` - runs through each character in a word
+- `isupper` - built-in method that checks upper/lower case char
