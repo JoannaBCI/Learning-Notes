@@ -23,12 +23,14 @@
 - `python <filename.py>` - Run a Python file
 - `python` - Open interactive mode (type code directly)
 - `print("text")` - Display text on screen (print(text.lower())–makes text lowercase)
+- `end=""` - print stays on the same line instead of moving to a new line after output
 - `input("prompt")` - Ask user to type something, returns what they typed
 - `int(value)` - Convert to integer
 - `float(value)` - Convert to decimal number
   `.1f` - The number before f is  how many decimal places you want (.3f → 2.000, .0f → 2)
 - `round(number, digits)` - Round a number (digits optional)
 - `print(text.replace("text","text"))` - Replace a segment with another.
+- `word[0]` → grab the first character (index 0)
 - `[::-1]` reverse a string
     - `[start : stop : step]`
     - start → where to begin (empty = beginning of string)
