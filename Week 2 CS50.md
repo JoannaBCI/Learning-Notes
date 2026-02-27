@@ -20,6 +20,7 @@ while i < 3:
 - i += 1 is shorthand for i = i + 1
 - `Ctrl + C` to escape an infinite loop
 - Always change the variable or you get an infinite loop
+- `in` - checks whether a value exists inside a list, python is asking "is the number the user typed one of these three values?"
 
 ### Lists
 - `[]`– creates list, first item is `[0]` index
