@@ -14,6 +14,15 @@ while i < 3:
 - `break` — exit the loop when condition is met
 - `continue` — skip current iteration, go back to top of loop
 - `range(n)` — generates numbers 0 up to but not through n
+- `def` means define — you're creating a function, which is a reusable block of code you can call by name.
+- `main()` - the name chosen for your define
+
+### New commands
+- `.isalpha()`- returns True if a character is a letter.
+- `.isdigit()`- returns True if a character is a number.
+- `.isupper` - built-in method that checks upper/lower case char
+- `char` - runs through each character in a word
+- `len()` — returns length of list
 
 ### i means Index
 - `i` - the location for the value, not the value itself
@@ -25,9 +34,7 @@ while i < 3:
 ### Lists
 - `[]`– creates list, first item is `[0]` index
 - `:` – categorizes what is with what, while `,` seperates words
-- `len(students)` — returns length of list
 - `{}` - cictionaries
 - `print()` - prints a newline
 - `print("#", end="")` — no newline after printing
-- `char` - runs through each character in a word
-- `isupper` - built-in method that checks upper/lower case char
+
