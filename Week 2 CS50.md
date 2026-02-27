@@ -23,6 +23,7 @@ while i < 3:
 - `.isupper` - built-in method that checks upper/lower case char
 - `char` - runs through each character in a word
 - `len()` — returns length of list
+- `enumerate()` - lets you loop through something and get both the index AND the value at the same time.
 
 ### i means Index
 - `i` - the location for the value, not the value itself
