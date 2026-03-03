@@ -1,4 +1,4 @@
-## Week 2 - LoopTypes of Errors
+## Week 2 - Types of Errors
 - `SyntaxError:` — typo/mistake in your code (missing quote, colon, etc.) — must be fixed before running
 - `ValueError:` — wrong type of value passed to a function (e.g. passing "cat" to int())
 - `NameError:` — using a variable that was never defined or failed to be assigned
