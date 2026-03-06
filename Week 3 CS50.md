@@ -21,3 +21,13 @@ while True:
         break
 ```
 
+### EOFError
+- EOF = End of File — means "there is no more input coming," triggered when the user presses Ctrl+D in the terminal.
+- Used to let the user exit a while True loop gracefully, means "im done"
+  ```
+  while True:
+    try:
+        item = input("Item: ")
+    except EOFError:
+        break
+  ```
