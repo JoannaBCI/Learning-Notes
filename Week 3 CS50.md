@@ -10,6 +10,9 @@
 - `else:` — runs only if NO exception happened (try succeeded)
 - `pass:` — silently ignore the error, stay in the loop without printing anything
 - `raise:` — manually trigger your own exception
+- `.index()` - finds the position of something inside a list, start at 0
+- `:02d` — formats a number to always show 2 digits, adds a leading zero if needed
+    d - it's a whole number (integer)
 
 ```
 while True:
