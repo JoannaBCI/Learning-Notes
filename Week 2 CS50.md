@@ -37,7 +37,7 @@ while i < 3:
 ### Lists
 - `[]`– creates list, first item is `[0]` index
 - `:` – categorizes what is with what, while `,` seperates words
-- `{}` - cictionaries
+- `{}` - "put a variable's value here"
 - `print()` - prints a newline
 - `print("#", end="")` — no newline after printing
 
