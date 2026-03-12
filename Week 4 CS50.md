@@ -35,5 +35,13 @@ print(f"Hello, {sys.argv[1]}")
 - Response usually comes back as *JSON* — key-value data format (like a Python dict)
 - `response.json()` — converts the server response into a Python dictionary you can work with
 - `json.dumps(data, indent=2)` — pretty-prints *JSON* so you can actually read it
+- Any .py file you create can be imported as a module by another file in the same folder
+- If your file has a `main()` function, wrap the call in a guard so it only runs when you run the file directly — not when you import it
+```
+if __name__ == "__main__":
+    main()
+```
+It's just asking Python "wait, am I being run directly or imported right now?" and acting accordingly.
+
 
 
