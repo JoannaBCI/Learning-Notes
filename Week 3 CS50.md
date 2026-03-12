@@ -1,5 +1,5 @@
 ## Week 3 - Types of Errors
-- `SyntaxError:` — typo/mistake in your code (missing quote, colon, etc.) — must be fixed before running
+- `SyntaxError:` — typo/mistake in your code (missing quote, colon, etc.), must be fixed before running
 - `ValueError:` — wrong type of value passed to a function (e.g. passing "cat" to int())
 - `NameError:` — using a variable that was never defined or failed to be assigned
 - `Runtime errors:` — happen while the program is running, not when you write it
@@ -10,7 +10,7 @@
 - `else:` — runs only if NO exception happened (try succeeded)
 - `pass:` — silently ignore the error, stay in the loop without printing anything
 - `raise:` — manually trigger your own exception
-- `.index()` - finds the position of something inside a list, start at 0
+- `.index()` — finds the position of something inside a list, start at 0
 - `:02d` — formats a number to always show 2 digits, adds a leading zero if needed
     d - it's a whole number (integer)
 
@@ -25,7 +25,7 @@ while True:
 ```
 
 ### EOFError
-- EOF = End of File — means "there is no more input coming," triggered when the user presses Ctrl+D in the terminal.
+- EOF = End of File means "there is no more input coming," triggered when the user presses Ctrl+D in the terminal.
 - Used to let the user exit a while True loop gracefully, means "im done"
   ```
   while True:
