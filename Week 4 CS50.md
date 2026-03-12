@@ -25,3 +25,15 @@ import sys # Guard clause pattern — check before assuming argv[1] exists
   elif len(sys.argv) > 2: sys.exit("Too many arguments")
 print(f"Hello, {sys.argv[1]}")
 ```
+### PIP, APIs, and Requests Package
+- Python's package manager — lets you install third-party libraries that don't come built-in
+- `pip install cowsay` — example of installing a third-party package from command line
+- Packages live on PyPI (Python Package Index) at pypi.org. After installing, you import them the same way as built-in modules
+- Application Programming Interface (API) — get data from someone else's server using code
+- `pip install requests` — install the requests package to make web requests from Python
+- `requests.get(url)` — your code acts like a browser, fetches data from a URL
+- Response usually comes back as *JSON* — key-value data format (like a Python dict)
+- `response.json()` — converts the server response into a Python dictionary you can work with
+- `json.dumps(data, indent=2)` — pretty-prints *JSON* so you can actually read it
+
+
