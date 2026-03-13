@@ -69,7 +69,7 @@ sorted(students, key=lambda s: s["name"])
 sorted(students, key=lambda s: s["home"], reverse=True)
 ```
 ### Binary Files and Images
-•Not all files are text as images, audio, video are binary (zeros and ones)
+Not all files are text as images, audio, video are binary (zeros and ones)
 - pip install pillow — installs the Pillow image library
 - from PIL import Image — imports image support
 - `Image.open(filename)` — opens an image file
