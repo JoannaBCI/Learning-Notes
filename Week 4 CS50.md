@@ -1,6 +1,8 @@
 ## Week 4 — Libraries
 Library/Module -  file of code someone else wrote that you can pull into your own program, instead of rewriting it yourself
 - `import` - loads a module into your file so you can use its functions
+- `import requests` - importing a library someone else built that handles internet connections. It lets Python talk to websites/APIs.
+- `import sys` - importing allow access to system-level stuff, like what the user typed in the terminal, not the input command line.
 - `from X import Y` - loads only ONE specific function from a module, so you don't need to prefix it with the module name every time
 - `random.choice(list)` - picks one item from a list at random, equal probability for each
 - `random.randint(a, b)` - returns a random whole number between a and b, inclusive
@@ -11,7 +13,8 @@ Library/Module -  file of code someone else wrote that you can pull into your ow
   import random
 random.choice(["heads", "tails"])
 ```
-
+- `len` -  length, as in how many items are in a list, 'python bitcoin.py' 1 gives you ["bitcoin.py", "1"] — length 2.
+- `!` -  "not equal to", so this says "if the user didn't type exactly one argument, complain." 
 ### SYS Built-in module
 input typed when running the file, not when prompted inside it. Running "python name.py David" means David lands in sys.argv[1].
 - `sys.argv` - a list of everything the user typed at the command line when running the program
@@ -23,6 +26,8 @@ input typed when running the file, not when prompted inside it. Running "python 
 import sys # Guard clause pattern — check before assuming argv[1] exists
   if len(sys.argv) < 2: sys.exit("Too few arguments")
   elif len(sys.argv) > 2: sys.exit("Too many arguments")
+  try:
+      n = float(sys.argv[1]) #Grabs the second item in that list (index 1), which is "1"
 print(f"Hello, {sys.argv[1]}")
 ```
 ### PIP, APIs, and Requests Package
