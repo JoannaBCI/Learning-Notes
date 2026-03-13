@@ -8,10 +8,10 @@ To saving data that survives after the program ends:
 - "a" — append mode, adds to the bottom, never overwrites
 - "r" — read mode, default, no need to type it
 - `open(f, "w")` - create/overwrite file
-`open(f, "a")` - append to file
-`open(f)`,`open(f, "r")` - read file
-`with open(...) as file:` - auto-closes 
-`.write(text)`	write to file (add \n manually)
+- `open(f, "a")` - append to file
+- `open(f)`,`open(f, "r")` - read file
+- `with open(...) as file:` - auto-closes
+- `.write(text)`	write to file (add \n manually)
 - `file.write(text)` — writes text to the file (no automatic newline — you must add \n yourself)
 - 	`file.close()` — saves and closes file — easy to forget, so use with instead
 ```
