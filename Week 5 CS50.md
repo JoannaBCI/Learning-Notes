@@ -5,9 +5,7 @@ Write code that tests your code automatically, so you don't have to test manuall
 - `==` means are these the same? → x == 5 (is x equal to 5? True or False)
 - `assert` — boldly claim something is true. If it's false, raises an error.
    `assert square(2) == 4` → passes silently if true, crashes if false
-- `pytest `— third party tool that runs your tests automatically and gives you readable output
-   install: pip install pytest
-   run: pytest test_calculator.py
+- `pytest `— third party tool that runs your tests automatically and gives you readable output (install: pip install pytest)
 - `test_something.py` - test file name
 - `test_something()` - test functions name
 - `pytest.raises` — use this when you expect an error to be raised
