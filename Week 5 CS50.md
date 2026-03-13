@@ -1,5 +1,6 @@
 ## Week 5 — Unit Tests
 Write code that tests your code automatically, so you don't have to test manually every time
+- `def` - define, creating a function with a name.
 - `assert` — boldly claim something is true. If it's false, raises an error.
    `assert square(2) == 4` → passes silently if true, crashes if false
 - `pytest `— third party tool that runs your tests automatically and gives you readable output
