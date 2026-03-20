@@ -17,7 +17,7 @@ random.choice(["heads", "tails"])
 - `!` -  "not equal to", so this says "if the user didn't type exactly one argument, complain." 
 ### SYS Built-in module
 input typed when running the file, not when prompted inside it. Running "python name.py David" means David lands in sys.argv[1].
-- `sys.argv` - a list of everything the user typed at the command line when running the program
+- `sys.argv` - a list of everything the user typed at the command line in terminal
 - `sys.argv[0]` - always the filename itself (e.g. name.py) — not useful usually
 - `sys.argv[1]` - the first actual argument the user typed after the filename
 - `sys.exit("msg")` - prints the message and quits the whole program immediately
