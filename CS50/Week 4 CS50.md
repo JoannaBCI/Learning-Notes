@@ -14,7 +14,8 @@ Library/Module -  file of code someone else wrote that you can pull into your ow
 random.choice(["heads", "tails"])
 ```
 - `len` -  length, as in how many items are in a list, 'python bitcoin.py' 1 gives you ["bitcoin.py", "1"] — length 2.
-- `!` -  "not equal to", so this says "if the user didn't type exactly one argument, complain." 
+- `!` -  "not equal to", so this says "if the user didn't type exactly one argument, complain."
+  
 ### SYS Built-in module
 input typed when running the file, not when prompted inside it. Running "python name.py David" means David lands in sys.argv[1].
 - `sys.argv` - a list of everything the user typed at the command line in terminal
@@ -22,14 +23,16 @@ input typed when running the file, not when prompted inside it. Running "python 
 - `sys.argv[1]` - the first actual argument the user typed after the filename
 - `sys.exit("msg")` - prints the message and quits the whole program immediately
 - `sys.argv[1:]` - a slice — grabs everything EXCEPT argv[0], so you skip the filename
-```
-import sys # Guard clause pattern — check before assuming argv[1] exists
-  if len(sys.argv) < 2: sys.exit("Too few arguments")
-  elif len(sys.argv) > 2: sys.exit("Too many arguments")
-  try:
-      n = float(sys.argv[1]) #Grabs the second item in that list (index 1), which is "1"
-print(f"Hello, {sys.argv[1]}")
-```
+- `len(sys.argv)` — counts how many command-line arguments were passed
+
+### File Handling
+- `open(filename)` — opens a file on your computer so Python can read it
+- `with open(sys.argv[1]) as f:` — opens the file the user passed in as a command-line argument. The as f just a variable name for the file object, nothing to do with float or f-strings
+- `FileNotFoundError` — a built-in Python error (not your variable), fires automatically when you try to open a file that doesn't exist
+- `TypeError` — wrong type used
+- `ValueError` — right type, wrong value
+- `.endswith("")` — checks if a string ends with whatever I write
+
 ### PIP, APIs, and Requests Package
 - Python's package manager — lets you install third-party libraries that don't come built-in
 - `pip install cowsay` — example of installing a third-party package from command line
