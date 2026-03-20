@@ -30,6 +30,11 @@ with open("names.txt") as file:
 for name in sorted(names):
     print(f"hello, {name}")
 ```
+- `try`/`except` — attempt code, catch errors without crashing
+- `with open() as file` — opens file, auto-closes when done
+- `for line in file` — loops line by line, memory efficient
+- `continue` — skips rest of current loop iteration, moves to next
+
 ### Comma-Separated Values (CSV) Files
 Commas separate columns but if your data contains a comma then split() break, so use Python's csv module.
 - `import csv`  — always at top of file
@@ -80,7 +85,7 @@ Create an animated GIF from two images
 import sys
 from PIL import Image
 images = []
-for arg in sys.argv[1:]:       # skip argv[0] (filename itself)
+for arg in sys.argv[1:]:
     images.append(Image.open(arg))
 images[0].save(
     "output.gif",
