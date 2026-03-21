@@ -29,10 +29,5 @@ Replaces manual `sys.argv` parsing:
 - `[expr for x in iterable if condition]` — filtered list
 - `{k: v for x in iterable}` — build a dict
 - `for i, val in enumerate(list)` — gives index + value, replaces `range(len(...))`
-
-
-yield / Generators
-
-return — gives everything back at once
-yield — gives one value at a time, remembers where it left off
-Prevents memory crashes on large data
+- `return` — gives everything back at once
+- `yield` — gives one value at a time, remembers where it left off, prevents memory crashes on large data
