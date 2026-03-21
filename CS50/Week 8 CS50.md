@@ -10,6 +10,20 @@ OOP is a programming paradigm for organizing code around real-world entities
 - `class variable`	- variable shared by ALL objects of the class (no self)
 - `class metho`d	- function that belongs to the class itself, not a specific object, takes cls
 - `constructor`	-  call that creates an object, e.g. Student("Harry", "Gryffindor")
+```
+  class Student:
+    def __init__(self, name, house):
+        if not name:
+            raise ValueError("Missing name")
+        if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+            raise ValueError("Invalid house")
+        self.name = name
+        self.house = house
+    def __str__(self):
+        return f"{self.name} from {self.house}"
+student = Student("Harry", "Gryffindor")
+print(student)
+```
 
 ### Properties
 Prevent invalid values being set on an attribute after object creation
