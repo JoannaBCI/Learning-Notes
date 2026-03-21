@@ -1,8 +1,6 @@
 ## Week 6 — Files
 To saving data that survives after the program ends:
-- `memory` — variables only last while the program runs — gone when it exits
-- `file` — stores data on disk permanently — survives after program ends
-- `File I/O` — code that reads from or writes to files
+- `file` — stores after program ends
 - `open(filename, mode)` — opens a file and returns a file handle (your connection to that file)
 - "w" — write mode, creates file if needed, but OVERWRITES existing content every time
 - "a" — append mode, adds to the bottom, never overwrites
@@ -32,8 +30,8 @@ for name in sorted(names):
 ```
 - `try`/`except` — attempt code, catch errors without crashing
 - `with open() as file` — opens file, auto-closes when done
-- `for line in file` — loops line by line, memory efficient
-- `continue` — skips rest of current loop iteration, moves to next
+- `for line in file` — loops line by line
+- `continue` — moves to next literation
 
 ### Comma-Separated Values (CSV) Files
 Commas separate columns but if your data contains a comma then split() break, so use Python's csv module.
