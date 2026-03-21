@@ -10,7 +10,7 @@
 - `pip install mypy` - pell-checker but for your variable types.
 - `"""` - triple quotes inside the function (not above), tools can auto-generate documentation from them
 
-### argparse
+### Argparse
 Replaces manual `sys.argv` parsing:
 - `argparse.ArgumentParser(description=)` — creates parser
 - `.add_argument("-n", default=, type=, help=)` — defines a flag
