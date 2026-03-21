@@ -13,15 +13,15 @@ OOP is a programming paradigm for organizing code around real-world entities
 
 ### Properties
 Prevent invalid values being set on an attribute after object creation
-`@property` = getter, when you read the attribute
+- `@property` = getter, when you read the attribute
+- `@name.setter` = setter, when you assign to the attribute
+- By convention, the underlying instance variable uses a leading underscore: _house
+- In `__init__`, use `self.house` = house (no underscore) so the setter runs and validates on creation too
 ```
 @property
 def house(self):
     return self._house
 ```
-`@name.setter` = setter, when you assign to the attribute
-By convention, the underlying instance variable uses a leading underscore: _house
-In `__init__`, use `self.house` = house (no underscore) so the setter runs and validates on creation too
 
 ### Inheritance
 A subclass inherits all attributes and methods from its superclass (parent)
