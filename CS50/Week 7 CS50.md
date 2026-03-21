@@ -39,3 +39,12 @@ Pattern you define to validate input (email, URL), clean messy data, or extract 
 - `r"\."` - raw strings for regex
 - `r"\w+"` - raw strings for regex word chars
 
+### Capturing groups
+Wrap part of a pattern in ( ) to extract that piece
+- `matches.group(1)` - first set of parens, group(2) → second, etc.
+- `matches.groups()` - returns all as a tuple, groups start at 1, not 0, can unpack: `last, first = matches.groups(`),
+- `:=` - Walrus operator, assign and check in one line inside an `if`
+```
+if matches := re.search(r"^(\w+), *(\w+)$", name):
+    last, first = matches.groups()
+```
