@@ -20,6 +20,22 @@ Pattern you define to validate input (email, URL), clean messy data, or extract 
 - `[ ]`	-	Set of allowed characters
 - `[^ ]` -	Any character NOT in set ([^@] = anything except @)
 -  `\`	-	Escape after char
--  `|`	-	.org
+-  `|` -	.org
 -  `( )`	-	Group and capture	returned via matches.group(1)
 -  `(?:)`	-	 Group but don't capture, use when you only need grouping for ? or |
+
+### Symbol	Meaning
+- `\w`	-	Word character = [a-zA-Z0-9_]
+- `\W`	-	Anything NOT a word character
+- `\d`	-	Decimal digit = [0-9]
+- `\D`	-	Anything NOT a digit
+- `\s`	-	Whitespace (space, tab)
+- `\S`	Anything NOT whitespace
+- `Flags` -	(3rd argument to re.search)
+- `Flag`	-	What it does
+- `re.IGNORECASE`	-	Case-insensitive matching
+- `re.MULTILINE`	-	^ and $ match per line, not whole string
+- `re.DOTALL`	-	. also matches newlines
+- `r"\."` - raw strings for regex
+- `r"\w+"` - raw strings for regex word chars
+
